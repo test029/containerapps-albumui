@@ -8,7 +8,7 @@ env:
   # Add envs
   RESOURCE_GROUP_NAME: Handson01-CICD
   CONTAINERAPP_NAME: ctapp-demo-ui
-  API_BASE_URL: https://ctapp-demo-ui.wonderfulcliff-b4f63350.japaneast.azurecontainerapps.io
+  API_BASE_URL: https://ctapp-demo-api.wonderfulcliff-b4f63350.japaneast.azurecontainerapps.io/
 jobs:
   build:
     runs-on: ubuntu-22.04
